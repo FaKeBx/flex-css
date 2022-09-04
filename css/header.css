@@ -1,0 +1,24 @@
+header {
+  background-color: #142ab2;
+  width: 100%;
+  color: white;
+}
+
+.header-lista {
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.background-menu {
+  background-color: #2d70ff;
+  width: 100%;
+}
+
+.menu {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-lista li {
+  padding: 10px;
+}
