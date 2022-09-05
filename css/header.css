@@ -27,11 +27,6 @@ header {
   flex-wrap: wrap;
 }
 
-.menu-item {
-  font-family: nunito;
-  padding: 10px;
-}
-
 .logo {
   font-family: nunito;
   font-size: 36px;
@@ -40,7 +35,13 @@ header {
   margin: 0px 10px 0px 10px;
 }
 
+.menu-lista {
+  flex-wrap: wrap;
+}
+
 .menu-item {
+  font-family: nunito;
+  padding: 10px;
   font-size: 20px;
 }
 

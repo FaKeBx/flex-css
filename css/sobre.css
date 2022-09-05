@@ -1,10 +1,12 @@
-.sobre {
-  border-top: solid 2px #2D70FF;
-  border-bottom: solid 2px #2D70FF;
+#sobre {
+  border-top: solid 2px #2d70ff;
+  border-bottom: solid 2px #2d70ff;
   padding: 60px 0px;
+  flex-wrap: wrap;
 }
 
 .sobre-info {
+  flex: 2 1 300px;
   margin: 0px 10px;
 }
 
@@ -24,6 +26,7 @@
 }
 
 .sobre-img {
+  flex: 1 1 160px;
   margin: 0px 10px;
 }
 .sobre-img img {
