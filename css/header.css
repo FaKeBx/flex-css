@@ -6,7 +6,13 @@ header {
 
 .header-lista {
   justify-content: space-between;
-  padding: 10px 0px;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  font-family: nunito;
+  margin: 0px 10px 10px 10px;
 }
 
 .background-menu {
@@ -15,10 +21,29 @@ header {
 }
 
 .menu {
+  padding: 15px 0px;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.menu-lista li {
+.menu-item {
+  font-family: nunito;
   padding: 10px;
+}
+
+.logo {
+  font-family: nunito;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0px 10px 0px 10px;
+}
+
+.menu-item {
+  font-size: 20px;
+}
+
+.menu-item:hover {
+  color: #142ab2;
 }
