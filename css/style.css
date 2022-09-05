@@ -2,3 +2,9 @@
 
 /* header */
 @import "/css/header.css";
+
+/* titulo */
+@import "/css/titulo.css";
+
+/* sobre */
+@import "/css/sobre.css";
