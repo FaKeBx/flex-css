@@ -6,7 +6,6 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 2000px;
 }
 
 ul {
@@ -34,7 +33,8 @@ h2,
 h3,
 ul,
 a,
-span {
+span,
+p {
   margin: 0px;
   padding: 0px;
 }
