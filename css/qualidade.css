@@ -1,0 +1,44 @@
+#qualidade {
+  margin: 60px auto;
+  flex-wrap: wrap;
+}
+
+.div-qualidade {
+  margin: 20px 10px;
+  margin-bottom: 0px;
+  flex: 1 1 300px;
+}
+
+.div-qualidade h2 {
+  font-family: nunito;
+  font-size: 36px;
+  color: #a4a4a4;
+  margin-bottom: 20px;
+}
+
+.div-qualidade h2::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.div-qualidade:nth-of-type(3n + 1) h2::before {
+  background: #ae81ff;
+}
+
+.div-qualidade:nth-of-type(3n + 2) h2::before {
+  background: #f5265e;
+}
+
+.div-qualidade:nth-of-type(3n + 3) h2::before {
+  background: #66d9eb;
+}
+
+.div-qualidade p {
+  font-family: nunito;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
