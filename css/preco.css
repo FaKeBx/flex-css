@@ -1,0 +1,97 @@
+.preco-bg {
+  background-color: #f7f7f7;
+  flex-wrap: wrap;
+  padding: 60px;
+  align-items: flex-end;
+}
+
+.div-preco {
+  margin: 10px;
+  border: solid 4px #fff;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 260px;
+}
+
+.div-preco h2 {
+  font-family: nunito;
+  font-size: 48px;
+  margin-top: 20px;
+  color: #a4a4a4;
+}
+
+.div-preco sup {
+  font-size: 24px;
+  color: #222;
+}
+
+.div-preco span {
+  font-family: nunito;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 10px 0px 5px 0px;
+  border-top: solid 4px #fff;
+  border-bottom: solid 4px #fff;
+  display: block;
+  max-width: 300px;
+  color: #222;
+}
+
+.preco-lista {
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.preco-lista li {
+  font-family: nunito;
+  font-size: 20px;
+  font-style: italic;
+  color: #7c7c7c;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preco-lista li::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #2c70ff;
+  display: block;
+  border-radius: 50%;
+}
+
+.div-preco a {
+  display: block;
+  justify-content: center;
+  font-family: nunito;
+  font-size: 36px;
+  font-weight: bold;
+  border: solid 4px #222;
+  margin: 20px auto;
+  padding: 15px 0px;
+  text-transform: uppercase;
+  color: #222;
+  max-width: 300px;
+}
+
+@media (max-width: 800px) {
+  #preco {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #preco {
+    flex-direction: column-reverse;
+  }
+  .div-preco {
+    width: 100%;
+    margin: 0px auto 10px auto;
+  }
+}
